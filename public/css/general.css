@@ -1,0 +1,17 @@
+/* General */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+body {
+    font-family: var(--font-roboto);
+    background-color: var(--light-grey);
+}
+li {
+    list-style: none;
+}

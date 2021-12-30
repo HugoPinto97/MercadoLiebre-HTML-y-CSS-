@@ -1,0 +1,86 @@
+.register-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-container-reg {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    width: 35%;
+}
+.input-reg {
+    border: none;
+    border-radius: 5px;
+    height: 2.5rem;
+    padding: .5rem;
+}
+
+.input-reg::placeholder {
+    color: var(--dark-grey);
+}
+.b {
+    font-size: 1.2rem;
+    position: relative;
+    right: 7rem;
+}
+
+.c {
+    font-size: 1.2rem;
+    position: relative;
+    right: 7.5rem;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.i {
+    font-size: 1.2rem;
+    position: relative;
+    right: 9.5rem;
+    padding-top: 10px;
+}
+.input-container-re {
+    position: relative;
+    right: 4.5rem;
+}
+.input-container-re .one {
+  padding-right: 2.5rem;
+}
+.input-container-re .onet {
+    margin-left: 5px;
+ }
+.input-container-re .two {
+    margin-left: 1.5rem;
+ }
+.input-container-re .twot {
+    margin-left: 5px;
+}
+.check {
+    position: relative;
+    right: 8.5rem;
+}
+
+.check1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.check2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.check3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.check4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.check5 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

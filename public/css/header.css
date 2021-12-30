@@ -1,0 +1,100 @@
+/* Header */
+
+.header {
+    background-color: var(--yellow);
+    font-size: var(--paragraph);
+}
+.header .burger-menu {
+    display: none;
+   /*  background-color: var(--light_blue);
+    color: white;
+    width: 25px;
+    padding: 7px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px auto 0; */
+}
+.header .logo {
+    width:250px;
+    padding-top: 25px;
+    display: inline-block;
+    margin-left: 2rem;
+}
+/* Search bar */
+.ml {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 3rem;
+    right: 2rem;
+}
+.ml .boton {
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.ml .search-bar {
+    width: 24rem;
+    height: 2.5rem;
+    padding: 0.5rem;
+    text-align: start;
+    border: none;
+    border-radius: 5px;
+}
+
+.ml .fas.fa-search {
+    height: 1rem;
+    color: gray;
+    position: relative;
+    right: 4px;
+}
+
+/* Quota */
+
+.header .quota {
+    font-size: 1rem;
+    text-align: center;
+    margin: 35px 40px 0 0;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 7rem;
+}
+
+/* Nav */
+.nav .flex {
+    display: flex;
+}
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 1rem;
+}
+.nav .ul1 {
+    margin-left: 30px;
+    position: relative;
+    bottom: 0.8rem;
+}
+.nav .ul2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    position: relative;
+    bottom: 2rem;
+}
+
+/* End header */
+ 
+@media screen and (max-widht:460px){
+    /* mobile */
+   .logo {
+       width: 50%;
+       background-color: black;
+   }
+   .ml {
+    color: coral;
+    
+   }
+    }
